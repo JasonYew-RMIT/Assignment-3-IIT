@@ -1,11 +1,51 @@
-<html>
-    <head>
-        <title>IIT Assignment 3</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h2>Skills and Jobs</h2>
-        <h2>Group Reflection</h2>
-        <h2>References</h2>
-    </body>
-</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- font and styling-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Open+Sans:wght@300&family=Silkscreen&family=Source+Code+Pro:wght@600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+</style>
+<button onclick="topFunction()" id="BacktoTopBtn" title="Back to top">&#8593</button>
+
+<script>
+  //button script
+var TopButton = document.getElementById("BacktoTopBtn");
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    TopButton.style.display = "block";
+  } else {
+    TopButton.style.display = "none";
+  }
+}
+
+//Scroll to top on click
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+<title>Assignment 3</title>
+</head>
+<body>
+
+      <div class="navbar">
+  <div class="span1">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="project.html">Project</a></li>
+    <li><a href="skillsjobs.html">Jobs & Skills</a></li>
+  </ul>
+</div>
+</div>
+<div class="mainheading">
+<h1 id="TopTitle">Assignment 3 IIT</h1>
+</div>

@@ -1,9 +1,81 @@
-<html>
-    <head>
-        <title>IIT Assignment 3</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- font and styling-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Open+Sans:wght@300&family=Silkscreen&family=Source+Code+Pro:wght@600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+</style>
+<button onclick="topFunction()" id="BacktoTopBtn" title="Back to top">&#8593</button>
+
+<script>
+  //button script
+var TopButton = document.getElementById("BacktoTopBtn");
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    TopButton.style.display = "block";
+  } else {
+    TopButton.style.display = "none";
+  }
+}
+
+//Scroll to top on click
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+<title>Assignment 3</title>
+</head>
+<body>
+
+      <div class="navbar">
+  <div class="span1">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="project.html">Project</a></li>
+    <li><a href="skillsjobs.html">Jobs & Skills</a></li>
+    <li><a href="#profile">My Profile</a></li>
+    <li><a href="#projects">Project Idea</a></li>
+  </ul>
+</div>
+</div>
+<div class="mainheading">
+<h1 id="TopTitle">Assignment 3 IIT</h1>
+</div>
     <body>
+      <h2> Artefacts</h2>
+        <p><strong>Wireframe</strong></p>
+
+    <p><a href="https://www.figma.com/file/CMmvMLyiQGdHFbcgvYkKXn/Wireframe?node-id=0%3A1" style="text-decoration:none">Link to Wireframe</a></p>
+
+    <p><img src="https://lh5.googleusercontent.com/4tdxaW5EthfoqHuo1Y46zdKoSmgdtEyYXz9nop-ZBsbnB11kaq1eksn1A31GoYlokhYAQDxbG5QHj8dNhw-iJftmtZx6MjG7XV5SRlbD87_Mvls0oXTJBmkpyX34_wcdIWPZvbTSJty77eDmPlwa9JWidW6sIDr2kp5CCIbRV8kmO0aw7GxEFgFAmA" style="height:280px; width:602px" class="center" /></p>
+
+    <p><strong>Mockup</strong></p>
+
+    <p><a href="https://www.figma.com/file/ct1sSKQRSPoEfvNA3srTCC/Mockup?node-id=0%3A1" style="text-decoration:none">Link to Mockup</a></p>
+
+    <p><img src="https://lh6.googleusercontent.com/HJJiH0wQJG36SAWD9vTV-tElsHDswLj86lHjvBT44PSNHjnloDU6RBOiRRvVzG7AGY55CY42MXpTjm8f1iNKjlFcJOtRc1ji90dvgw4ntTRPGpA4KtbAU3DNIj-PTMI60a6cNx85QSABAjEDnnUeP7EBiChBcqFRVLIcmiqR4BgXm0L_tRvE7UjgCw" style="height:180px; width:602px" class="center"/></p>
+
+    <p><strong>Prototype</strong></p>
+
+    <p><a href="https://www.figma.com/file/mYYuyxHSvtoCC76bxmmKfE/Prototype?node-id=0%3A1" style="text-decoration:none">Link to Prototype</a></p>
+
+    <p><img src="https://lh5.googleusercontent.com/rc-qZnmYhpwRTYYF30ULO0S08zIRCZAP9GspHt8Ye7WzlsAi2gR70dJR0dqc-xmmJYwurXnbQtJB_QST9IlWCiow2egQO7zNMJWfkAR1X8bKISd_-7dYhQ9g5zp5OOaxZX618jy_bMUq5s4lo84QRurk4Q7cQhaNifpukpRGhlkWae5-qgJsthDKSQ" style="height:165px; width:602px"class="center" /></p>
+
+    <p><a href="https://www.figma.com/proto/mYYuyxHSvtoCC76bxmmKfE/Prototype?node-id=1%3A2&amp;scaling=min-zoom&amp;page-id=0%3A1&amp;starting-point-node-id=1%3A2" style="text-decoration:none">More Detail</a></p>
+
+    <p>&nbsp;</p>
+
+
         <h2>Project Description</h2>
         <p>After finishing installing this application on the user&rsquo;s device, users will be asked to create a new account by registering an email address followed by filling in the required information such as address, phone number, interest, and entering identification (passport, id) for security reasons. After completing the personal data, the user can now choose whether he wants to join and become a local tour guide for the application or seek a tour guide in any particular area. For people who want to become local tour guides, they will have to submit more data like a photo, description about themselves, location they want to work, and their rate. On the other hand, people who look for a tour guide can directly jump in to the map page and search for a specific area that they want to explore. Afterwards, a list of tour guide in the area will come out complete with their hobby, interest and details of the schedule about the places they will visit and also the estimated time of the tour and the price (individual/groups), and after both parties agree, meeting point and time will come out and the arrival time of the tour guide will be more early. For the tourist end, users will have to launch the app and grant location access to the app so the application can locate their current location and provide the most relevant tour plan, accommodation. For the accommodation part, the app will collect open source accommodation data such as Hotel Druid, KWHotel Free and more. Moreover, the application also allows people who want to rent their hotel or house, they will need to upload their accommodation location, house or room size, amenities provided and most importantly the costs.</p>
 
@@ -33,57 +105,58 @@
 	<li>Reviews with picture</li>
 </ul>
 
-        <h2>Overview</h2>
+<h2>Overview</h2>
 <h3>Motivation</h3>
 <p>Our motivation for this project is to help tourists to find a local tour guide easily with an affordable price through our application. During  the pandemic that is getting better and under control, a lot of countries are starting to reopen the entry access for tourists to their country. This is a really good opportunity to make an application like this because it can help overcome the unemployment problem in the country, especially because a lot of countries are still in the recovery phase from the pandemic, thus helping the economy of the country. This application can also be helpful for people who want to travel again, because they are able to discover more places that are difficult to reach and also get provided with a local tour guide who is well acquainted with the place they are visiting.</p>
+
+<h3>Landscape</h3>
+<p>The similar popular systems/products available which are also engaged in tourism services are Airbnb, TripIt, Hopper, Traveloka, and google maps. However, most of this application only offers specific services such as aeroplane ticket booking, hotel booking, and tour planning that are mostly only in popular spots. This is different from the project that we do because our apps reach areas that are remote and less known to people, and also a significant difference is that this application includes local tour guides services in the order. Moreover, this application also provides items that are needed, both mandatory and optional for the tour. Whereas other applications do not have this feature, so users have to prepare all the stuff individually. Overall, many applications offer some part of the services available in this application, but so far there is no application that has the full features of this project we are working on.</p>
+
+
 
         <h2>Detailed Description</h2>
         <h3>Aims</h3>
         <p>The aim of this project is If this project goes well the result will be more people getting jobs, and these people can work in the areas where they live which helps solve the problem of unemployment. Besides that, local tourist attractions that have not been exposed on the internet are also increasingly recognized by a lot of people which helps the economy of businesses in that area. Additionally, there will be a lot more destinations options for tourists and this will give the opportunity for them to connect with new people. Therefore, to improve and enhance the use of this application a marketing campaign is also needed to gain a lot of new customers.</p>
-        <p><span style="font-size:11pt"><span style=""><span style="color:#000000">Project Goals:</span></span></span></p>
+        <p><span style="">Project Goals:</span></span></span></p>
 
 <ul>
-	<li style="list-style-type:disc"><span style="font-size:11pt"><span style=""><span style="color:#000000">Creating a marketplace for hiring tour guides and finding tourists that needs tour guides:</span></span></span></li>
+	<li style="list-style-type:disc"><span style="">Creating a marketplace for hiring tour guides and finding tourists that needs tour guides:</span></span></span></li>
 </ul>
 
-<p style="margin-left:48px"><span style="font-size:11pt"><span style=""><span style="color:#000000">Sometimes it could be difficult for tourists to find reputable local tour guides easily, and it could be challenging for local tour guides to find tourists that need them, this app aims to address this problem by connecting them both, and allowing feedbacks and ratings for improvement.</span></span></span></p>
+<p style="margin-left:48px"><span style="">Sometimes it could be difficult for tourists to find reputable local tour guides easily, and it could be challenging for local tour guides to find tourists that need them, this app aims to address this problem by connecting them both, and allowing feedbacks and ratings for improvement.</span></span></span></p>
 
 <p>&nbsp;</p>
 
 
         <h3>Plans and Progress</h3>
-        <p><span style="font-size:11pt"><span style=""><span style="color:#000000"><strong>Week 1</strong></span></span></span></p>
+        <p><span style=""><strong>Week 1</strong></span></span></span></p>
 
-<p><span style="font-size:11pt"><span style=""><span style="color:#000000">During a meeting we went through the assignment specifications to achieve a better understanding of the assignment and plan for what we should do for each segment within. We noted things we were unsure about so we could later discuss it with the tutor. For the report we made notes underneath the headings to clarify what is needed for it to help us when we were unsure on what we were supposed to do for that task or what can help with presenting it. We also completed wireframes to show a basic design on how the app would look. As it was a wireframe, not much effort was put into making it look pretty instead focusing on where things should be placed and getting the functionality visualised.</span></span></span></p>
+<p><span style="">During a meeting we went through the assignment specifications to achieve a better understanding of the assignment and plan for what we should do for each segment within. We noted things we were unsure about so we could later discuss it with the tutor. For the report we made notes underneath the headings to clarify what is needed for it to help us when we were unsure on what we were supposed to do for that task or what can help with presenting it. We also completed wireframes to show a basic design on how the app would look. As it was a wireframe, not much effort was put into making it look pretty instead focusing on where things should be placed and getting the functionality visualised.</span></span></span></p>
 
-<p><span style="font-size:11pt"><span style=""><span style="color:#000000"><strong>Week 2</strong></span></span></span></p>
+<p><span style=""><strong>Week 2</strong></span></span></span></p>
 
-<p><span style="font-size:11pt"><span style=""><span style="color:#000000">Before starting the mockup we played around with and did research on InVision. We concluded that it would be better for us to continue using Figma as our tool of choice as there were complications that we found with InVision. Mainly, the tutorial videos we found mostly consisted of importing an existing mockup from sketch into InVision for prototyping instead of designing a mockup. In addition to this we could not resize frames and pixels to the pixel which would hinder our ability to consistently design shapes for the mockup. Thus, we went back to Figma. For the mockup we started by implementing the basic design from the wireframes alongside doing research on what colours we&rsquo;d use. We decided to use a blue, yellow and white colour scheme limiting it to these colours so as to not pollute it with too much colour. When going over the design we also researched mobile design standards for margins and implemented 16 pixel margins to comply with this.</span></span></span></p>
+<p><span style="">Before starting the mockup we played around with and did research on InVision. We concluded that it would be better for us to continue using Figma as our tool of choice as there were complications that we found with InVision. Mainly, the tutorial videos we found mostly consisted of importing an existing mockup from sketch into InVision for prototyping instead of designing a mockup. In addition to this we could not resize frames and pixels to the pixel which would hinder our ability to consistently design shapes for the mockup. Thus, we went back to Figma. For the mockup we started by implementing the basic design from the wireframes alongside doing research on what colours we&rsquo;d use. We decided to use a blue, yellow and white colour scheme limiting it to these colours so as to not pollute it with too much colour. When going over the design we also researched mobile design standards for margins and implemented 16 pixel margins to comply with this.</span></span></span></p>
 
 <ul>
-	<li style="list-style-type:disc"><span style="font-size:11pt"><span style=""><span style="color:#000000">Research on colours and margins</span></span></span>
+	<li style="list-style-type:disc"><span style="">Research on colours and margins</span></span></span>
 
 	<ul>
-		<li style="list-style-type:disc"><a href="https://infinum.com/blog/mobile-layouts-and-grids/" style="text-decoration:none"><span style="font-size:11pt"><span style=""><span style="color:#1155cc"><u>https://infinum.com/blog/mobile-layouts-and-grids/</u></span></span></span></a></li>
-		<li style="list-style-type:disc"><a href="https://uxdesign.cc/basic-color-theory-for-better-mobile-design-522798534a99" style="text-decoration:none"><span style="font-size:11pt"><span style=""><span style="color:#1155cc"><u>https://uxdesign.cc/basic-color-theory-for-better-mobile-design-522798534a99</u></span></span></span></a></li>
+		<li style="list-style-type:disc"><a href="https://infinum.com/blog/mobile-layouts-and-grids/" style="text-decoration:none"><span style=""><u>https://infinum.com/blog/mobile-layouts-and-grids/</u></span></span></span></a></li>
+		<li style="list-style-type:disc"><a href="https://uxdesign.cc/basic-color-theory-for-better-mobile-design-522798534a99" style="text-decoration:none"><span style=""><u>https://uxdesign.cc/basic-color-theory-for-better-mobile-design-522798534a99</u></span></span></span></a></li>
 	</ul>
 	</li>
-	<li style="list-style-type:disc"><span style="font-size:11pt"><span style=""><span style="color:#000000">Research on invision</span></span></span>
+	<li style="list-style-type:disc"><span style="">Research on invision</span></span></span>
 	<ul>
-		<li style="list-style-type:disc"><span style="font-size:11pt"><span style=""><span style="color:#000000">Decided to use figma for mockup</span></span></span></li>
+		<li style="list-style-type:disc"><span style="">Decided to use figma for mockup</span></span></span></li>
 	</ul>
 	</li>
-	<li style="list-style-type:disc"><span style="font-size:11pt"><span style=""><span style="color:#000000">Use figma for mockup as well</span></span></span></li>
-	<li style="list-style-type:disc"><span style="font-size:11pt"><span style=""><span style="color:#000000">Research on possible jobs advertisement&nbsp;</span></span></span></li>
+	<li style="list-style-type:disc"><span style="">Use figma for mockup as well</span></span></span></li>
+	<li style="list-style-type:disc"><span style="">Research on possible jobs advertisement&nbsp;</span></span></span></li>
 </ul>
 
-<p><span style="font-size:11pt"><span style=""><span style="color:#000000"><strong>Week 3</strong></span></span></span></p>
+<p><span style=""><strong>Week 3</strong></span></span></span></p>
 
-<p>&nbsp;</p>
 
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
 
         <h3>Roles</h3>
         <h3>Scope and Limits</h3>
